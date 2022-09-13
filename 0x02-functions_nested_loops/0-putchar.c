@@ -2,7 +2,7 @@
 
 /**
  * main - prints _putchar, followed by a new line
- * Return: Always 0 (Success)  
+ * Return: Always (0)
  */
 int main(void)
 {
@@ -13,7 +13,7 @@ int main(void)
 	putchar('c');
 	putchar('h');
 	putchar('a');
-	putchar('r');	
+	putchar('r');
 	putchar('\n');
 	return (0);
 }
