@@ -2,8 +2,10 @@
 
 /**
  * print_triangle - prints triangle
- * @size: an int given by main`
+ * @size: an int given by main
+ * Same as my 7 print diagonal. check that file and its comments
  * Description: Uses headers to link and a nested loops to achieve goal
+ * can do one nested for instead of two. do a if a to b equality check
  * Return: void. no return.
  */
 void print_triangle(int size)
