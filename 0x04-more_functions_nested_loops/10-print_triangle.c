@@ -2,31 +2,21 @@
 
 /**
  * print_triangle - prints triangle
- * @size: size of triangle
+ * @size: an int given by main`
+ * Description: Uses headers to link and a nested loops to achieve goal
+ * Return: void. no return.
  */
 void print_triangle(int size)
 {
-	int i;
-	int j;
-	int k;
-
+	int a, b;
 	if (size <= 0)
+		_putchar('\n');
+	for (a = 0; a < size; a++)
 	{
+		for (b = size - a - 1; b > 0; b--)
+			_putchar(' ');
+		for (b = a + 1; b > 0; b--)
+			_putchar('#');
 		_putchar('\n');
 	}
-	else
-	{
-		for (i = 1; i <= size; i++)
-		{
-			for (j = size - i ; j > 0; j--)
-			{
-				_putchar(' ');
-			}
-			for (k = 0; k < i; k++)
-			{
-				_putchar('#');
-			}
-			_putchar('\n');
-		}
-	}
-}`
+}
